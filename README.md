@@ -3,7 +3,11 @@ This is a movie collection Application Programming Interface, where users can st
 
   ## Features of project:
 
-  1. **Display movies to API user without storing data**. when user calls on ` http://127.0.0.1:8000/movies/ ` it will call another API internally to get movies from it and it to the user.
+  1. **Display movies to API user without storing data**. when user calls on ` http://127.0.0.1:8000/movies/ ` it will call another API internally to get movies from and send it to the user. It gives response in pagenated form.
+
+  <p align="center" width="100%">
+    <img src="https://github.com/dwipalshrirao/movies-collection-api-using-django-rest-framework/blob/main/getmovies.png"> 
+</p>
 
   2. **User can make collections of movies**. user can create his own collections also update , delete operations can performe.
 
@@ -12,6 +16,9 @@ This is a movie collection Application Programming Interface, where users can st
   4. **JWT Token authentication**. JWT Token authention is use for user authention. User can register or login to same url ` http://127.0.0.1:8000/register/ ` to get JWT Token.
 
   5. **Collection Privacy**. User can only read, create, update or delete his own collections
+
+  ## Some outputs:
+
 
   ## Technology Used:
 
